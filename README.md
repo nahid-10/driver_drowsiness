@@ -16,12 +16,19 @@ Works with webcam or prerecorded video.
 
 Project Structure
 driver_drowsiness/
+
 ├─ models/
-│  └─ shape_predictor_68_face_landmarks.dat   # dlib landmark model (not included)
+
+│  └─ shape_predictor_68_face_landmarks.dat   # dlib landmark model 
+
 ├─ src/
+
 │  ├─ drowsiness_detector.py                  # main script (webcam / video)
+
 │  ├─ utils.py                                # helper functions (EAR, sound, etc.)
+
 │  └─ train_model.py                          # optional (if using custom ML)
+
 ├─ requirements.txt
 ├─ README.md
 └─ examples/
@@ -47,15 +54,7 @@ scipy (optional)
 
 tqdm (optional)
 
-Example requirements.txt:
 
-opencv-python==4.7.0
-dlib==19.24.0
-imutils==0.5.4
-numpy==1.25.0
-playsound==1.3.0
-scipy==1.11.0
-tqdm==4.66.1
 
 
 Note: Installing dlib can require CMake and build tools. On Windows use prebuilt wheels or conda; on Linux/Mac install CMake + boost first.
@@ -201,6 +200,6 @@ Uses: dlib (landmark predictor), OpenCV, and many open-source resources for EAR 
 
 Contact
 
-Md Nahid Hossain — (update with your preferred contact)
+Md Nahid Hossain
 
 GitHub: https://github.com/nahid-10
