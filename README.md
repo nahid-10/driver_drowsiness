@@ -1,6 +1,5 @@
 # Driver Drowsiness Detection System 🚗💤
 
-![Demo Screenshot](project.png)
 
 This project demonstrates how to build a **real-time driver drowsiness detection system** using Python, OpenCV, and Dlib. The system monitors eye movements using facial landmarks and triggers an alert when signs of fatigue or sleepiness are detected.
 
